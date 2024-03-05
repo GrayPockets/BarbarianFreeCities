@@ -7,7 +7,7 @@
     <ProjectGuid>{8F16679D-DD27-46E0-A23F-5F513BD78C7B}</ProjectGuid>
     <ModVersion>1</ModVersion>
     <Teaser>Turn Barbarian Clans into Free Cities</Teaser>
-    <Description>This mod causes Barbarian Clans to convert into Free Cities instead of into City-States in Barbarian Clans mode. I recommend using Leugi's Free City Flavour Mod for names.[NEWLINE][NEWLINE][ICON_BULLET] Convert Barbarian Clan into a Free City whenever the UI detects one at least 10 points from converting to a City-State[NEWLINE][ICON_BULLET] * New Free City has population equal to the current Era[NEWLINE][ICON_BULLET] Increases the Conversion Point requirement by 10 to compensate[NEWLINE][ICON_BULLET] Hides the difference in the UI so that it appears seamless[NEWLINE][ICON_BULLET] Update in-game text accordingly[NEWLINE][ICON_BULLET] Add notification</Description>
+    <Description>This mod causes Barbarian Clans to convert into Free Cities instead of into City-States in Barbarian Clans mode. I recommend using Leugi's Free City Flavour Mod for names.[NEWLINE][NEWLINE][ICON_BULLET] Convert Barbarian Clan into a Free City whenever the UI detects one at least 10 points from converting to a City-State[NEWLINE][ICON_BULLET] * New Free City has population equal to the current Era[NEWLINE][ICON_BULLET] Increases the Conversion Point requirement by 10 to compensate[NEWLINE][ICON_BULLET] Hides the difference in the UI so that it appears seamless[NEWLINE][ICON_BULLET] Update in-game text accordingly[NEWLINE][ICON_BULLET] Add notification[NEWLINE][NEWLINE]Mod Support[NEWLINE][ICON_BULLET] Nere's Better Barbarian Clans mode</Description>
     <Authors>GrayPockets</Authors>
     <SpecialThanks>HandyVac,Tiramisu,Zegangani</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
