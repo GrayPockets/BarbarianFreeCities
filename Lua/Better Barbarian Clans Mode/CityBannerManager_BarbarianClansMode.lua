@@ -96,10 +96,6 @@ function UpdateTribeBannerConversionBar(barbarianTribeEntry : table)
 		local strConversionTip : string = "";
 		local strConversionTipMax : string = tostring(iPointsToConvert);
 		if (iPointsRemaining >= 10) then
-			print(iPointsRemaining); -- TEST
-			print(iCurrentPoints); -- TEST
-			print(strConversionTipMax); -- TEST
-			print(Locale.Lookup("LOC_TRIBE_BANNER_CONVERSION_TIP_TURNS", iCurrentPoints)..strConversionTipMax); -- TEST
 			strConversionTip = Locale.Lookup("LOC_TRIBE_BANNER_CONVERSION_TIP_TURNS", iCurrentPoints)..strConversionTipMax;
 		else
 			strConversionTip = Locale.Lookup("LOC_TRIBE_BANNER_CONVERSION_TIP_IMMINENT");
