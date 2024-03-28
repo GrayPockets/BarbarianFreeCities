@@ -17,7 +17,7 @@
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
     <AssemblyName>GrayPockets.RoadRage</AssemblyName>
     <RootNamespace>GrayPockets.RoadRage</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><ImportFiles id="Import_BarbarianFreeCities"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>BarbarianModeIsOn</Criteria><File>Lua/CityBannerManager_BarbarianClansMode.lua</File></ImportFiles><AddGameplayScripts id="Script_BarbarianFreeCities"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>BarbarianModeIsOn</Criteria><File>Lua/GamePlayScript.lua</File></AddGameplayScripts><UpdateText id="Text_BarbarianFreeCities"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>BarbarianModeIsOn</Criteria><File>SQL/Text/BarbarianFreeCities.sql</File></UpdateText><UpdateDatabase id="Game_BarbarianFreeCities"><Properties><LoadOrder>100000</LoadOrder></Properties><Criteria>BarbarianModeIsOn</Criteria><File>SQL/Game/BarbarianFreeCities.sql</File></UpdateDatabase><ImportFiles id="Import_BarbarianFreeCities_BetterBarbarianClans"><Properties><LoadOrder>100000</LoadOrder></Properties><Criteria>BarbarianModeIsOn</Criteria><Criteria>ModInUse Nere's Better Barbarian Clans mode</Criteria><File>Lua/CityBannerManager_BarbarianClansMode.lua</File></ImportFiles><UpdateText id="Text_BarbarianFreeCities_BetterBarbarianClans"><Properties><LoadOrder>100000</LoadOrder></Properties><Criteria>BarbarianModeIsOn</Criteria><Criteria>ModInUse Nere's Better Barbarian Clans mode</Criteria><File>SQL/Text/BarbarianFreeCities_BetterBarbarianClans.sql</File></UpdateText></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><ImportFiles id="Import_BarbarianFreeCities"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>BarbarianModeIsOn</Criteria><File>Lua/CityBannerManager_BarbarianClansMode.lua</File></ImportFiles><AddGameplayScripts id="Script_BarbarianFreeCities"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>BarbarianModeIsOn</Criteria><File>Lua/GamePlayScript.lua</File></AddGameplayScripts><UpdateText id="Text_BarbarianFreeCities"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>BarbarianModeIsOn</Criteria><File>SQL/Text/BarbarianFreeCities.sql</File></UpdateText><UpdateDatabase id="Game_BarbarianFreeCities"><Properties><LoadOrder>100000</LoadOrder></Properties><Criteria>BarbarianModeIsOn</Criteria><File>SQL/Game/BarbarianFreeCities.sql</File></UpdateDatabase><ImportFiles id="Import_BarbarianFreeCities_BetterBarbarianClans"><Properties><LoadOrder>100000</LoadOrder></Properties><Criteria>BarbarianModeIsOn</Criteria><Criteria>ModInUse Nere's Better Barbarian Clans mode</Criteria><File>Lua/Better Barbarian Clans Mode/CityBannerManager_BarbarianClansMode.lua</File></ImportFiles><UpdateText id="Text_BarbarianFreeCities_BetterBarbarianClans"><Properties><LoadOrder>100000</LoadOrder></Properties><Criteria>BarbarianModeIsOn</Criteria><Criteria>ModInUse Nere's Better Barbarian Clans mode</Criteria><File>SQL/Text/BarbarianFreeCities_BetterBarbarianClans.sql</File></UpdateText></InGameActions>]]></InGameActionData>
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
   <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
@@ -29,6 +29,9 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="LICENSE">
+      <SubType>Content</SubType>
+    </None>
     <Content Include="Lua\Better Barbarian Clans Mode\CityBannerManager_BarbarianClansMode.lua">
       <SubType>Content</SubType>
     </Content>
